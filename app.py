@@ -2,4 +2,7 @@ import streamlit as st
 
 st.title("Zyro Dynamics HR Help Desk")
 
-st.write("HR Help Desk Chatbot is running successfully.")
+question = st.text_input("Ask an HR Question")
+
+if question:
+    st.write("HR Bot Response")
